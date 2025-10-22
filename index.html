@@ -26,7 +26,7 @@
 <body>
 
     <!-- กล่องใบที่1 แถบบาร์ -->
-    <section class="shadow sticky-top"> <!-- shadowเพิ่มเงา sticky-topติดด้านบน -->
+    <section class="shadow"> <!-- shadowเพิ่มเงา sticky-topติดด้านบน -->
         <div class="container">
 
             <nav class="navbar navbar-expand-lg"> <!-- navbar-expand-lg คือ แถบบาร์เด้งออกมา -->
@@ -44,13 +44,17 @@
                                         class="RedText">BOOKER</strong></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="#อ่านแล้วได้อะไร...นอกจากความสนุก?">อ่านแล้วได้อะไร...นอกจากความสนุก?</a>
+                                <a class="nav-link" aria-current="page"
+                                    href="#link">อ่าน ‘อันธพาลแห่งตระกูลเคานต์’ แล้วได้อะไรมากกว่าความสนุก?</a>
                                 <!--target="_blank" ปุ่มย้อนกลับ-->
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link"
-                                    href="#หลังปิดเล่ม…เรายังได้อะไรกลับมา">หลังปิดเล่ม…เรายังได้อะไรกลับมา</a>
+                                <a class="nav-link" aria-current="page"
+                                    href="#trash">หลังอ่าน Trash of the Count's Familyเราได้อะไรจากหนังสือเล่มนี้?</a>
+                            </li>
+                             <li class="nav-item">
+                                <a class="nav-link" aria-current="page"
+                                    href="#video">video</a>
                             </li>
 
                             <a href="document/book-recomended.pdf" target="_blank">download</a>
@@ -111,7 +115,7 @@
 
     <!-- กล่องใบที่4-ทำไมจึงควรอ่าน? -->
     <div class="container mt-3">
-        <h3 class="bg-dark-red">อ่าน ‘อันธพาลแห่งตระกูลเคานต์’ แล้วได้อะไรมากกว่าความสนุก?</h3>
+        <h3 class="bg-dark-red" id="link">อ่าน ‘อันธพาลแห่งตระกูลเคานต์’ แล้วได้อะไรมากกว่าความสนุก?</h3>
         <p>หนึ่งในจุดเด่นที่ทำให้ อันธพาลแห่งตระกูลเคานต์ หรือ Trash of the Count's Family ผลงานของ Yu Ryeo-Han
             กลายเป็นนิยายแฟนตาซีที่โด่งดังและแตกต่างจากเรื่องอื่น คือ “มุมมองของตัวเอกที่ไม่เหมือนใคร” —
             เมื่อชายหนุ่มธรรมดาอย่างคิมรกซูตื่นขึ้นมาในร่างของ เคล เฮนิทุส อันธพาลไร้ประโยชน์ในนิยายเรื่อง กำเนิดวีรชน
@@ -127,7 +131,7 @@
 
     <!-- กล่องใบที่5-ประโยชน์ของหนังสือเล่มนี้ -->
     <div class="container mt-3">
-        <h3 class="bg-dark-red">หลังอ่าน Trash of the Count's Familyเราได้อะไรจากหนังสือเล่มนี้?</h3>
+        <h3 class="bg-dark-red" id="trash">หลังอ่าน Trash of the Count's Familyเราได้อะไรจากหนังสือเล่มนี้?</h3>
         <p>1. สอนให้เห็นคุณค่าของสติและการวางแผน ใน Trash of the Count's Family โดย Yu Ryeo-Han ตัวเอกอย่าง เคล เฮนิทุส
             แม้จะไม่มีพลังเวทมหาศาลเหมือนตัวละครอื่น แต่เขากลับเอาชนะอุปสรรคด้วยสติปัญญาและการวางแผนอย่างรอบคอบ
             นิยายเรื่องนี้จึงเปรียบเสมือนบทเรียนที่ตอกย้ำว่า “ความรอบคอบคือพลังที่แท้จริง” ซึ่งเป็นหัวใจของ
@@ -268,12 +272,15 @@
 
     <!-- กล่องเปล่าวิดีโอ -->
     <div class="container mt-3">
-        <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe
+        <div id="video">
+            <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe
                 src="https://www.youtube.com/embed/AlledYGb5aQ?rel=0"
                 style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen
                 scrolling="no"
                 allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;"
                 referrerpolicy="strict-origin"></iframe></div>
+        </div>
+        
 
     </div>
 
