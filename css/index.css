@@ -1,0 +1,50 @@
+
+
+.bg-light-gray {
+    background-color: #ffcece; /* พื้นหลังสีเทาอ่อน */
+}
+
+
+.RedText {
+    color: #8d182a;          /* ตัวอักษรสี #8d182a */
+    background-color: transparent; /* ไม่มีพื้นหลัง */
+}
+
+.WhiteText {
+    color: #ffffff;            /* ตัวอักษรสีขาว */
+    background-color: transparent; /* ไม่มีพื้นหลัง */
+}
+
+/* .navbar-custom {
+    background-color: #dabd91; /* พื้นหลังสีที่ต้องการ */
+/* } */
+
+.bg-dark-red {
+    background-color: #8d182a; /* พื้นหลังสีแดงเข้ม */
+    padding: 20px;             /* เพิ่มระยะขอบด้านในให้สวยขึ้น */
+    border-radius: 8px;        /* เพิ่มมุมโค้งเล็กน้อย (ถ้าต้องการ) */
+    color: #ffffff;            /* เปลี่ยนตัวอักษรเป็นสีขาวเพื่ออ่านง่าย */
+}
+
+.text-blue-gray {
+    color: #445f7a; /* ตัวอักษรสีน้ำเงินอมเทา */
+}
+
+.text-center-div {
+    text-align: center;    /* จัดตัวอักษรให้อยู่ตรงกลางแนวนอน */
+    display: flex;         /* ใช้ flexbox เพื่อจัดแนวเนื้อหา */
+    flex-direction: column;
+    justify-content: center; /* จัดให้อยู่กลางแนวตั้ง (ถ้าความสูงกำหนดไว้) */
+    align-items: center;     /* จัดให้อยู่กลางแนวนอน */
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+
+
